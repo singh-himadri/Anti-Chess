@@ -88,18 +88,18 @@ body {
 
 .centered-box {
   width: 350px;
-  height: 100px;
+  height: 85px;
   background-color: #575553;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px auto; /* Center the box horizontally and add margin from the top */
-  border-radius: 10px; /* Rounded corners */
-  padding: 10px; /* Add padding inside the box */
+  margin: 50px auto; 
+  border-radius: 10px; 
+  padding: 10px; 
   font-family: "Montserrat", sans-serif;
-  font-weight: 600; /* Set font weight to 600 (semi-bold) */
-  font-style: normal; /* Set font style to normal */
+  font-weight: 600; 
+  font-style: normal; 
   color: #EFEFEF;
 }
 
@@ -115,13 +115,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px; /* Rounded corners */
+  border-radius: 10px; 
   /* padding-left: 10px;
   padding-right: 10px; */
-  font-family: "Montserrat Alternates", sans-serif; /* Apply the Montserrat Alternates font */
-  font-weight: 600; /* Set font weight to 600 (semi-bold) */
-  font-style: normal; /* Set font style to normal */
-  color: #EFEFEF; /* Change the font color to navy */
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600; 
+  font-style: normal; 
+  color: #EFEFEF; 
 }
 
 .button-container {
@@ -144,7 +144,7 @@ body {
 
 /*spacing between the buttons */
 .button-quit button {
-  margin: 0 10px; /* Margin left and right */
+  margin: 0 10px; 
   font-size: 16px;
   padding: 10px 20px;
   border-radius: 10px;
