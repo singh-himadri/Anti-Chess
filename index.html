@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Anti-Chess-Game</title>
+</head>
+
+<body>
+  <div class="centered-box">
+    <h1>Anti-Chess Game</h1>
+  </div>
+  <div class="bottom-right-box">
+    <p>Himadri Singh</p>
+    <!-- <button style="font-size:24px"><i class="fa fa-github"></i></button>  -->
+    <div class="button-container">
+      <p style="margin-right: 10px;"></p>
+      <a href="https://github.com/singh-himadri" target="_blank">
+        <button style="font-size:24px"><i class="fa fa-github"></i></button>
+      </a>
+    </div>
+    <div></div>
+  </div>
+
+  <div id="root"></div>
+  <div class="button-quit">
+    <button id="quitWhite" onclick="quitGame('WHITE')">White Quit</button>
+    <button id="quitBlack" onclick="quitGame('BLACK')">Black Quit</button>
+  </div>
+
+</body>
+<script type="module" src="index.js"></script>
+
+</html>
