@@ -150,24 +150,24 @@ body {
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .centered-box {
-    margin: 0 auto; /* Center horizontally */
+    margin: 0 auto;     
   }
 
   .button-quit {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;  
+    align-items: center;  
   }
 
   .button-quit button {
-    margin: 0 10px; /* Add margin */
+    margin: 0 10px;   
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 10px;
   }
-}
+} */
 
 .popup-overlay {
   position: fixed;
