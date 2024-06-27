@@ -154,26 +154,6 @@ function callbackPawnPromotion(piece, id) {
   currentElement.append(image);
 }
 
-// function checkForWin() {
-//   const flatData = globalState.flat();
-//   const whitePieces = flatData.filter(el => el.piece && el.piece.piece_name.includes("WHITE"));
-//   const blackPieces = flatData.filter(el => el.piece && el.piece.piece_name.includes("BLACK"));
-
-//   if (whitePieces.length === 0) {
-//     alert("Black wins!");
-//   } else if (blackPieces.length === 0) {
-//     alert("White wins!");
-//   }
-// }
-
-// function quitGame(color) {
-//   if (color === 'WHITE') {
-//     alert("Black wins by resignation!");
-//   } else if (color === 'BLACK') {
-//     alert("White wins by resignation!");
-//   }
-// }
-
 // Function to create a full-screen popup with the given message
 function showPopup(message) {
   const popup = document.createElement("div");
@@ -201,9 +181,9 @@ function checkForWin() {
   const blackPieces = flatData.filter(el => el.piece && el.piece.piece_name.includes("BLACK"));
 
   if (whitePieces.length === 0) {
-      showPopup("Black wins!");
-  } else if (blackPieces.length === 0) {
       showPopup("White wins!");
+  } else if (blackPieces.length === 0) {
+      showPopup("Black wins!");
   }
 }
 
